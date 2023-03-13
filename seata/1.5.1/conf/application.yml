@@ -13,7 +13,7 @@ logging:
     logstash-appender:
       destination: 127.0.0.1:4560
     kafka-appender:
-      bootstrap-servers: 127.0.0.1:9092
+      bootstrap-servers: 127.0.0.1:19092
       topic: logback_to_logstash
 
 console:
