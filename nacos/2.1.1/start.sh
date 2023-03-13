@@ -27,6 +27,6 @@ curl -L -C - "https://d.pcs.baidu.com/file/bf8de983flc6f39873993dba72f895fb?fid=
 
 tar -xzf nacos-server-2.1.1.tar.gz
 
-curl -o nacos/conf/application.properties https://640f34d762838303e1881836--phenomenal-parfait-fd829c.netlify.app/nacos/2.1.1/conf/application.properties
+curl -o nacos/conf/application.properties https://master--phenomenal-parfait-fd829c.netlify.app/nacos/2.1.1/conf/application.properties
 
 ./nacos/bin/startup.sh -m standalone
